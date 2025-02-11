@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-amoled-things-theme",
+  "version": "0.1.0",
+  "description": "AMOLED Things Obsidian theme",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch theme/index.scss:theme.css",
+    "build": "sass --no-source-map theme/index.scss:theme.css"
+  },
+  "keywords": [
+    "obsidian",
+    "theme",
+    "color",
+    "icons"
+  ],
+  "author": "Oleksii Lytvyn",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.84.0"
+  }
+}
